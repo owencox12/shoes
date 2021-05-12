@@ -1,0 +1,103 @@
+.footer {
+    min-height: 956px;
+    background: #212A2F;
+    padding: 71px 0 91px 0;
+    &__inner {
+        &_text {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 19px;
+            letter-spacing: 0.5px;
+            color: #FFFFFF;
+        }
+    }
+    &__input {
+        width: 302px;
+        height: 48px;
+        background: #4D5559;
+    }
+    &__wrapper {
+        width: 63%;
+        margin-top: 90px;
+        display: flex;
+        justify-content: space-between;
+        margin-right: 30px;
+        &_second {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 85px;
+        }
+    }
+    &__item {
+        &_title {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 15px;
+            line-height: 21px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            margin-left: 40px;
+            &_second {
+                margin-left: 0;
+            }
+        }
+        &_list {
+            list-style-type: none;
+            margin-top: 21px;
+            &_li {
+                margin-bottom: 10px;
+            }
+        }
+        &_link {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 12px;
+            letter-spacing: 0.5px;
+            color: #FFFFFF;
+            transition: all .5s;
+            &:hover {
+                color: rgb(7, 191, 247);
+                text-decoration: none;
+            }
+        }
+    }
+    .footer-icon {
+         width: 18px;
+         fill: #fff;
+         height: 17px;
+         margin: 0 10px;
+         margin-top: 15px;
+         transition: all .2s;
+         &:hover {
+             fill: rgb(7, 191, 247);
+         }
+    }
+    &__item_descr {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 0.5px;
+        color: #FFFFFF;
+        width: 293px;
+        margin-top: 21px;
+    }
+    &__last_text {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: 0.5px;
+        color: #FFFFFF;
+        margin-top: 94px;
+    }
+}

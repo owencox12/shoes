@@ -1,0 +1,32 @@
+.promo {
+    background: url(../../image/Rectangle.png) center center / cover no-repeat;
+    min-height: 740px;
+    background-size: cover;
+    padding: 321px 0 66px 0;
+    &__title {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 48px;
+        line-height: 63px;
+        color: #fff;
+        text-align: center;
+        letter-spacing: 0.5px;
+    }
+    &__subtitle {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #fff;
+        letter-spacing: 0.5px;
+        text-align: center;
+        margin-top: 11px;
+    }
+    &__button {
+        display: flex;
+        justify-content: center;
+        margin-top: 207px;
+    }
+}

@@ -1,0 +1,71 @@
+.about {
+    min-height: 975px;
+    padding: 47px 0 138px 0;
+    background: #fff;
+    position: relative;
+    &__title {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 32px;
+        line-height: 42px;
+        color: #212A2F;
+        letter-spacing: 0.5px;
+        text-align: center;
+    }
+    &__subtitle {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: 0.5px;
+        color: #212a2f;
+        margin-top: 18px;
+    }
+    &__button {
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    &__image {
+        &_title {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 32px;
+            line-height: 42px;
+            letter-spacing: 0.5px;
+            color: #212A2F;
+            margin-top: 119px;
+            margin-bottom: 24px;
+        }
+        &_item {
+            display: flex;
+            justify-content: space-between;
+        }
+        &_descr {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 22px;
+            line-height: 29px;
+            letter-spacing: 0.5px;
+            color: #212A2F;
+            margin-top: 17px;
+        }
+    }
+    &__arrow_next {
+        position: absolute;
+        top: 37%;
+        z-index: 100;
+        right: -2%;
+    }
+    .about__image_img{
+        width: 100%;
+    }
+    .swiper-container {
+        max-width: 1300px;
+    }
+}

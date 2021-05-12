@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>shoes</title>
+</head>
+<body>
+    <svg style="display: none;">
+        <symbol id="instagram" viewBox="0 0 511 511.9">
+            <path d="m510.949219 150.5c-1.199219-27.199219-5.597657-45.898438-11.898438-62.101562-6.5-17.199219-16.5-32.597657-29.601562-45.398438-12.800781-13-28.300781-23.101562-45.300781-29.5-16.296876-6.300781-34.898438-10.699219-62.097657-11.898438-27.402343-1.300781-36.101562-1.601562-105.601562-1.601562s-78.199219.300781-105.5 1.5c-27.199219 1.199219-45.898438 5.601562-62.097657 11.898438-17.203124 6.5-32.601562 16.5-45.402343 29.601562-13 12.800781-23.097657 28.300781-29.5 45.300781-6.300781 16.300781-10.699219 34.898438-11.898438 62.097657-1.300781 27.402343-1.601562 36.101562-1.601562 105.601562s.300781 78.199219 1.5 105.5c1.199219 27.199219 5.601562 45.898438 11.902343 62.101562 6.5 17.199219 16.597657 32.597657 29.597657 45.398438 12.800781 13 28.300781 23.101562 45.300781 29.5 16.300781 6.300781 34.898438 10.699219 62.101562 11.898438 27.296876 1.203124 36 1.5 105.5 1.5s78.199219-.296876 105.5-1.5c27.199219-1.199219 45.898438-5.597657 62.097657-11.898438 34.402343-13.300781 61.601562-40.5 74.902343-74.898438 6.296876-16.300781 10.699219-34.902343 11.898438-62.101562 1.199219-27.300781 1.5-36 1.5-105.5s-.101562-78.199219-1.300781-105.5zm-46.097657 209c-1.101562 25-5.300781 38.5-8.800781 47.5-8.601562 22.300781-26.300781 40-48.601562 48.601562-9 3.5-22.597657 7.699219-47.5 8.796876-27 1.203124-35.097657 1.5-103.398438 1.5s-76.5-.296876-103.402343-1.5c-25-1.097657-38.5-5.296876-47.5-8.796876-11.097657-4.101562-21.199219-10.601562-29.398438-19.101562-8.5-8.300781-15-18.300781-19.101562-29.398438-3.5-9-7.699219-22.601562-8.796876-47.5-1.203124-27-1.5-35.101562-1.5-103.402343s.296876-76.5 1.5-103.398438c1.097657-25 5.296876-38.5 8.796876-47.5 4.101562-11.101562 10.601562-21.199219 19.203124-29.402343 8.296876-8.5 18.296876-15 29.398438-19.097657 9-3.5 22.601562-7.699219 47.5-8.800781 27-1.199219 35.101562-1.5 103.398438-1.5 68.402343 0 76.5.300781 103.402343 1.5 25 1.101562 38.5 5.300781 47.5 8.800781 11.097657 4.097657 21.199219 10.597657 29.398438 19.097657 8.5 8.300781 15 18.300781 19.101562 29.402343 3.5 9 7.699219 22.597657 8.800781 47.5 1.199219 27 1.5 35.097657 1.5 103.398438s-.300781 76.300781-1.5 103.300781zm0 0"/><path d="m256.449219 124.5c-72.597657 0-131.5 58.898438-131.5 131.5s58.902343 131.5 131.5 131.5c72.601562 0 131.5-58.898438 131.5-131.5s-58.898438-131.5-131.5-131.5zm0 216.800781c-47.097657 0-85.300781-38.199219-85.300781-85.300781s38.203124-85.300781 85.300781-85.300781c47.101562 0 85.300781 38.199219 85.300781 85.300781s-38.199219 85.300781-85.300781 85.300781zm0 0"/><path d="m423.851562 119.300781c0 16.953125-13.746093 30.699219-30.703124 30.699219-16.953126 0-30.699219-13.746094-30.699219-30.699219 0-16.957031 13.746093-30.699219 30.699219-30.699219 16.957031 0 30.703124 13.742188 30.703124 30.699219zm0 0"/>
+        </symbol>
+    </svg>
+    <svg style="display: none;">
+        <symbol id="twitter" viewBox="0 0 511.271 511.271">
+            <g>
+                <path d="M508.342,94.243c-2.603-2.603-6.942-3.471-10.414-2.603l-17.356,6.075c10.414-12.149,17.356-25.166,21.695-37.315
+                    c1.736-4.339,0.868-7.81-1.736-10.414c-2.603-2.603-6.942-3.471-10.414-1.736c-24.298,10.414-45.125,19.092-62.481,24.298
+                    c0,0.868-0.868,0-1.736,0c-13.885-7.81-47.729-25.166-72.027-25.166c-61.614,0.868-111.078,52.936-111.078,116.285v3.471
+                    c-90.251-17.356-139.715-43.39-193.519-99.797L40.6,58.663l-5.207,10.414c-29.505,56.407-8.678,107.607,25.166,142.319
+                    c-15.62-2.603-26.034-7.81-35.58-15.62c-3.471-2.603-7.81-3.471-12.149-0.868c-3.471,1.736-5.207,6.942-4.339,11.281
+                    c12.149,40.786,42.522,73.763,75.498,93.722c-15.62,0-28.637-1.736-41.654-10.414c-3.471-1.736-8.678-1.736-12.149,0.868
+                    s-5.207,6.942-3.471,11.281c15.62,44.258,45.993,67.688,94.59,73.763c-25.166,14.753-58.142,26.902-109.342,27.77
+                    c-5.207,0-9.546,3.471-11.281,7.81c-1.736,5.207,0,9.546,3.471,13.017c31.241,25.166,100.664,39.919,186.576,39.919
+                    c152.732,0,277.695-136.244,277.695-303.729v-2.603c19.092-9.546,34.712-27.77,42.522-52.936
+                    C511.813,101.185,510.945,96.846,508.342,94.243z M456.274,143.707l-5.207,1.736v14.753
+                    c0,157.939-117.153,286.373-260.339,286.373c-78.97,0-131.905-13.017-160.542-26.902c59.878-4.339,94.59-23.431,121.492-44.258
+                    l21.695-15.62h-26.034c-49.464,0-79.837-13.885-97.193-46.861c15.62,5.207,32.108,5.207,50.332,4.339
+                    c6.942-0.868,13.885-0.868,20.827-0.868l2.603-17.356c-32.976-9.546-72.027-39.051-91.119-78.969
+                    c17.356,7.81,36.447,9.546,53.803,9.546h26.902L91.8,213.999c-18.224-13.017-72.027-59.01-45.993-124.963
+                    c55.539,54.671,108.475,79.837,203.932,97.193l10.414,1.736v-24.298c0-53.803,41.654-98.061,93.722-98.929
+                    c19.959-0.868,52.936,17.356,62.481,22.563c5.207,2.603,10.414,3.471,15.62,1.736c13.017-4.339,28.637-10.414,45.993-17.356
+                    c-7.81,13.017-18.224,25.166-32.108,36.448c-3.471,2.603-4.339,7.81-2.603,12.149c1.736,4.339,6.942,6.075,11.281,4.339
+                    l33.844-11.281C482.308,124.616,472.762,137.633,456.274,143.707z"/>
+            </g>
+        </symbol>
+    </svg>
+    <svg style="display: none;">
+        <symbol id="facebook" viewBox="0 0 24 24">
+            <path d="m15.997 3.985h2.191v-3.816c-.378-.052-1.678-.169-3.192-.169-3.159 0-5.323 1.987-5.323 5.639v3.361h-3.486v4.266h3.486v10.734h4.274v-10.733h3.345l.531-4.266h-3.877v-2.939c.001-1.233.333-2.077 2.051-2.077z"/>
+        </symbol>
+    </svg>
+    <svg style="display: none;">
+        <symbol id="vector" viewBox="0 0 18 17">
+            <path d="M8.22857 12.2833C7.97143 12.185 7.84286 11.6937 7.45714 11.7919C6.94286 13.5607 6.3 15.6243 5.27143 17H3.72857H3.85714C3.6 16.3122 3.72857 14.9364 3.85714 14.1503C4.24286 12.3815 5.52857 10.0232 5.52857 8.35263C5.52857 7.66477 5.01429 6.87864 5.14286 5.99425C5.4 4.422 8.35714 3.04627 9.25714 4.81506C10.4143 6.87864 6.81429 9.33529 8.87143 10.711C9.25714 11.0058 10.2857 11.2023 11.1857 11.1041C15.3 10.4162 15.8143 3.8324 12.4714 2.35841C7.58571 0.0982978 2.18571 3.5376 2.57143 7.07518C2.82857 8.4509 4.62857 9.13876 3.08571 10.4162C0.771429 9.63009 0 8.4509 0 6.38732C0 2.26015 5.14286 -0.491298 10.8 3.18214e-05C14.4 0.29483 17.4857 2.55495 18 5.10986C18.2571 7.36997 17.3571 10.2197 15.1714 11.6937C13.5 12.7746 10.0286 13.3642 8.22857 12.2833Z" fill="white"/>
+        </symbol>
+    </svg>
+    <header class="header">
+        <nav class="header__navigation">
+            <div class="header__wrapper">
+            <div class="navigation__left">
+                <ul>
+                    <li><a href="#">MEN</a></li>
+                    <li><a href="#">WOMEN</a></li>
+                </ul>
+            </div>
+                <div class="header__logo">
+                    <a href="#"><img src="image/Group.png" alt="Logo" class="logo"></a>
+                </div>
+                <div class="navigation__right">
+                    <ul>
+                        <li><a href="#">Our Materials</a></li>
+                        <li><a href="#">Stores</a></li>
+                        <li><a href="#"><img src="image/profile.png" alt=""></a></li>
+                        <li><a href="#"><img src="image/buy.png" alt=""></a></li>
+                        <li><a href="#"><img src="image/korzina.png" alt=""></a></li>
+                    </ul>
+                </div>
+        </div>
+        </nav>
+
+        <div class="header__burger">
+            <span></span>
+        </div>
+        <div class="header__burger_list">
+            <div class="header__burger_list_img">
+                <a href="#"><img src="image/profile.png" alt=""></a>
+                <a href="#"><img src="image/buy.png" alt=""></a>
+                <a href="#"><img src="image/korzina.png" alt=""></a>
+            </div>
+            <ul>
+                <li><a href="#">MEN</a></li>
+                <li><a href="#">WOMEN</a></li>
+                <li><a href="#">Our Materials</a></li>
+                <li><a href="#">Stores</a></li>
+            </ul>
+        </div>
+        <div class="header__placeholder">
+            <img src="image/Group.png" alt="" class="header--logo">
+        </div>
+    </header>
+    <section class="promo">
+        <!-- <div class="container"> -->
+            <h1 class="promo__title">Running Shoes Made From Trees</h1>
+            <h4 class="promo__subtitle">New colors to keep you moving</h4>
+        <!-- </div> -->
+        <div class="promo__button">
+        <button class="button button--promo">SHOP MEN</button>
+        <button class="button button--promo">SHOP WOMEN</button>
+    </div>
+    </section>
+    <section class="favorite">
+        <div class="container">
+            <h1 class="favorite__title">Our Favorites</h1>
+            <ul class="favorite__tabs">
+                <li class="favorite__tab favorite__tab_active">Shoes</li>
+                <li class="favorite__tab">Apparel</li>
+                <li class="favorite__tab">Basics</li>
+            </ul>
+            <div class="favorite__divider"></div>
+            <div class="favorite__wrapper">
+                <div class="favorite__content favorite__content_active">
+                <div class="favorite__item">
+                    <img src="image/favorite1.png" alt="" class="favorite__item_img">
+                    <div class="favorite__item_name">Tree Dasher</div>
+                    <div class="favorite__divider favorite__divider--small"></div>
+                    <div class="favorite__item_icon">
+                        <img src="image/favoriteicon.png" alt=""> <span>Daily Running Shoe</span>
+                    </div>
+                    <button class="button--favorite">SHOP MEN</button>
+                </div>
+                <div class="favorite__item">
+                    <img src="image/favorite2.png" alt="" class="favorite__item_img">
+                    <button class="button--favorite">SHOP MEN</button>
+                    <button class="button--favorite2">SHOP WOMEN</button>
+                    <div class="favorite__item_name">Tree Dasher</div>
+                    <div class="favorite__divider favorite__divider--small"></div>
+                    <div class="favorite__item_icon">
+                        <img src="image/favoriteicon.png" alt=""> <span>Daily Running Shoe</span>
+                    </div>
+                </div>
+                <div class="favorite__item">
+                    <img src="image/favorite3.png" alt="" class="favorite__item_img">
+                    <button class="button button--favorite">SHOP MEN</button>
+                    <button class="button button--favorite2">SHOP WOMEN</button>
+                    <div class="favorite__item_name">Tree Dasher</div>
+                    <div class="favorite__divider favorite__divider--small"></div>
+                    <div class="favorite__item_icon">
+                        <img src="image/favoriteicon.png" alt=""> <span>Daily Running Shoe</span>
+                    </div>
+                </div>
+            </div>
+            <div class="favorite__content">
+                <div class="favorite__item">
+                    <img src="image/favorite1.png" alt="" class="favorite__item_img">
+                    <div class="favorite__item_name">Tree Dasher</div>
+                    <div class="favorite__divider favorite__divider--small"></div>
+                    <div class="favorite__item_icon">
+                        <img src="image/favoriteicon.png" alt=""> <span>Daily Running Shoe</span>
+                    </div>
+                    <button class="button--favorite">SHOP MEN</button>
+                </div>
+                <div class="favorite__item">
+                    <img src="image/favorite3.png" alt="" class="favorite__item_img">
+                    <button class="button button--favorite">SHOP MEN</button>
+                    <button class="button button--favorite2">SHOP WOMEN</button>
+                    <div class="favorite__item_name">Tree Dasher</div>
+                    <div class="favorite__divider favorite__divider--small"></div>
+                    <div class="favorite__item_icon">
+                        <img src="image/favoriteicon.png" alt=""> <span>Daily Running Shoe</span>
+                    </div>
+                </div>
+                <div class="favorite__item">
+                    <img src="image/favorite2.png" alt="" class="favorite__item_img">
+                    <button class="button--favorite">SHOP MEN</button>
+                    <button class="button--favorite2">SHOP WOMEN</button>
+                    <div class="favorite__item_name">Tree Dasher</div>
+                    <div class="favorite__divider favorite__divider--small"></div>
+                    <div class="favorite__item_icon">
+                        <img src="image/favoriteicon.png" alt=""> <span>Daily Running Shoe</span>
+                    </div>
+                </div>
+            </div>
+            <div class="favorite__content">
+            
+                <div class="favorite__item">
+                    <img src="image/favorite2.png" alt="" class="favorite__item_img">
+                    <button class="button--favorite">SHOP MEN</button>
+                    <button class="button--favorite2">SHOP WOMEN</button>
+                    <div class="favorite__item_name">Tree Dasher</div>
+                    <div class="favorite__divider favorite__divider--small"></div>
+                    <div class="favorite__item_icon">
+                        <img src="image/favoriteicon.png" alt=""> <span>Daily Running Shoe</span>
+                    </div>
+                </div>
+                <div class="favorite__item">
+                    <img src="image/favorite1.png" alt="" class="favorite__item_img">
+                    <div class="favorite__item_name">Tree Dasher</div>
+                    <div class="favorite__divider favorite__divider--small"></div>
+                    <div class="favorite__item_icon">
+                        <img src="image/favoriteicon.png" alt=""> <span>Daily Running Shoe</span>
+                    </div>
+                    <button class="button--favorite">SHOP MEN</button>
+                </div>
+                <div class="favorite__item">
+                    <img src="image/favorite3.png" alt="" class="favorite__item_img">
+                    <button class="button button--favorite">SHOP MEN</button>
+                    <button class="button button--favorite2">SHOP WOMEN</button>
+                    <div class="favorite__item_name">Tree Dasher</div>
+                    <div class="favorite__divider favorite__divider--small"></div>
+                    <div class="favorite__item_icon">
+                        <img src="image/favoriteicon.png" alt=""> <span>Daily Running Shoe</span>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+    <section class="bgcolor">
+    </section>
+    <section class="about">
+        <div class="container">
+            <h1 class="title title--about">Colorful By Nature</h1>
+            <h4 class="subtitle subtitle--about">Merino Wool Shoes In Limited Edition Hues</h4>
+            <div class="about__button">
+                <button class="button button--about">SHOP MEN</button>
+                <button class="button button--about">SHOP WOMEN</button>
+            </div>
+            <div class="about__image">
+                <h1 class="about__image_title">Shop By Category</h1>
+                </div>
+                </div>
+                <div class="image-slider swiper-container">
+                    <div class="image-slider__wrapper swiper-wrapper">
+                        <div class="image-slider__slider swiper-slide">
+                            <div class="image-slider__image">
+                                <img src="image/about1.png" class="about-img" alt="" >
+                                <div class="about__image_descr">Men's Shoes</div>
+                            </div>
+                        </div>
+                        <div class="image-slider__slider swiper-slide">
+                            <div class="image-slider__image">
+                                <img src="image/about2.png" class="about-img" alt="" >
+                                <div class="about__image_descr">Women's Shoes</div>
+                            </div>
+                        </div>
+                        <div class="image-slider__slider swiper-slide">
+                            <div class="image-slider__image">
+                                <img src="image/about3.png" class="about-img" alt="" >
+                                <div class="about__image_descr">Men's Apparel</div>
+                            </div>
+                        </div>
+                        <div class="image-slider__slider swiper-slide">
+                            <div class="image-slider__image">
+                                <img src="image/about1.png" class="about-img" alt="" >
+                                <div class="about__image_descr">Women's Apparel</div>
+                            </div>
+                        </div>
+                        <div class="image-slider__slider swiper-slide">
+                            <div class="image-slider__image">
+                                <img src="image/about1.png" class="about-img" alt="" >
+                                <div class="about__image_descr">Men's Shoes</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about__arrow_next">
+                        <img src="image/arrow.png" alt="">
+                    </div>
+                </div>
+            </div>
+            </div>
+    </section>
+    <section class="made">
+        <div class="made__bgcolor"></div>
+        <div class="container">
+            <h1 class="title title--made">Made From Nature, For Nature</h1>
+            <h4 class="subtitle subtitle--made">We craft with planet-friendly natural materials, like merino wool and eucalyptus trees, because they're our best chance for a sustainable future.</h4>
+            <button class="button button--made">See How</button>
+            <div class="made__image">
+                <h1 class="about__image_title">New Arrivals</h1>
+                </div>
+                </div>
+                <div class="image-slider swiper-container">
+                    <div class="image-slider__wrapper swiper-wrapper">
+                        <div class="image-slider__slider swiper-slide">
+                            <div class="image-slider__image">
+                                <img src="image/made1.png" class="made-img" alt="" >
+                                <div class="made__image_descr">Men's Shoes</div>
+                                <div class="made__image_limited">Limited Edition Color, Gaia</div>
+                            </div>
+                        </div>
+                        <div class="image-slider__slider swiper-slide">
+                            <div class="image-slider__image">
+                                <img src="image/made2.png" class="made-img" alt="" >
+                                <div class="made__image_descr">Women's Shoes</div>
+                                <div class="made__image_limited">Limited Edition Color, Terra</div>
+                            </div>
+                        </div>
+                        <div class="image-slider__slider swiper-slide">
+                            <div class="image-slider__image">
+                                <img src="image/made3.png" class="made-img" alt="" >
+                                <div class="made__image_descr">Men's Apparel</div>
+                                <div class="made__image_limited">Limited Edition Color, Aspen</div>
+                            </div>
+                        </div>
+                        <div class="image-slider__slider swiper-slide">
+                            <div class="image-slider__image">
+                                <img src="image/about2.png" class="made-img" alt="" >
+                                <div class="made__image_descr">Women's Apparel</div>
+                                <div class="made__image_limited">Limited Edition Color, Terra</div>
+                            </div>
+                        </div>
+                        <div class="image-slider__slider swiper-slide">
+                            <div class="image-slider__image">
+                                <img src="image/about1.png" class="made-img" alt="" >
+                                <div class="made__image_descr">Men's Shoes</div>
+                                <div class="made__image_limited">Limited Edition Color, Gaia</div>
+                            </div>
+                        </div>
+                        <div class="image-slider__slider swiper-slide">
+                            <div class="image-slider__image">
+                                <img src="image/made3.png" class="made-img" alt="" >
+                                <div class="made__image_descr">Men's Apparel</div>
+                                <div class="made__image_limited">Limited Edition Color, Aspen</div>
+                            </div>
+                        </div>
+                        <div class="image-slider__slider swiper-slide">
+                            <div class="image-slider__image">
+                                <img src="image/about2.png" class="made-img" alt="" >
+                                <div class="made__image_descr">Women's Apparel</div>
+                                <div class="made__image_limited">Limited Edition Color, Terra</div>
+                            </div>
+                        </div>
+                        <div class="image-slider__slider swiper-slide">
+                            <div class="image-slider__image">
+                                <img src="image/made3.png" class="made-img" alt="" >
+                                <div class="made__image_descr">Men's Apparel</div>
+                                <div class="made__image_limited">Limited Edition Color, Aspen</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about__arrow_next">
+                        <img src="image/arrow.png" alt="">
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="tread">
+        <div class="tread__bgcolor"></div>
+        <div class="container">
+            <h1 class="title title--tread">Tread Lighter</h1>
+            <h4 class="subtitle subtitle--tread">The standard sneaker emits 12.5 kg CO2e. Our average shoe emits 7.6 kg CO2e. Better, but we want to do more. Our goal—have no carbon footprint from the start. The first step to reduce our footprint is to measure it. And even though we’re not at zero yet, we can be. It’s all part of the plan.</h4>
+            <button class="button button--tread">Our Sustainability Approach</button>
+            <h1 class="tread__title">Stories</h1>
+
+            <div class="tread__wrapper">
+                <div class="tread__item">
+                    <img src="image/tread1.png" alt="Tread" class="tread__image">
+                    <div class="tread__item_name">Run Hard, Tread Light</div>
+                    <div class="tread__item_descr">Meet the Tree Dasher—a performance shoe made with natural materials.</div>
+                </div>
+                <div class="tread__item">
+                    <img src="image/tread2.png" alt="Tread" class="tread__image">
+                    <div class="tread__item_name">Our Doors Are Open</div>
+                    <div class="tread__item_descr">The well-being of our retail communities is top priority as our stores re-open around the globe.</div>
+                </div>
+                <div class="tread__item">
+                    <img src="image/tread3.png" alt="Tread" class="tread__image">
+                    <div class="tread__item_name">We're A Certified B Corp</div>
+                    <div class="tread__item_descr">From the very beginning, the environment has been a stakeholder here.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="container container--second">
+        <div class="footer__inner">
+            <span class="footer__inner_text">Enter your email to stay in touch!</span>
+            <form action="#" class="footer__form">
+                <input type="email" name="email" class="footer__input">
+                <button class="button button--footer">Sign Up</button>
+            </form>
+        </div>
+        <div class="footer__wrapper">
+            <div class="footer__item">
+                <div class="footer__item_title">Help</div>
+                <ul class="footer__item_list">
+                    <li class="footer__item_list_li"><a href="tel:18889638944" class="footer__item_link">1-888-963-8944</a></li>
+                    <li class="footer__item_list_li"><a href="tel:18142519966" class="footer__item_link">1-814-251-9966 (Text)</a></li>
+                    <li class="footer__item_list_li"><a href="mailto:help@allbirds.com" class="footer__item_link">help@allbirds.com</a></li>
+                    <li class="footer__item_list_li"><a href="#" class="footer__item_link">Returns/Exchanges</a></li>
+                    <li class="footer__item_list_li"><a href="#" class="footer__item_link">FAQ/Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer__item">
+                <div class="footer__item_title">Company</div>
+                <ul class="footer__item_list">
+                    <li class="footer__item_list_li"><a href="#" class="footer__item_link">Men's Shoes</a></li>
+                    <li class="footer__item_list_li"><a href="tel:18142519966" class="footer__item_link">Women's Shoes</a></li>
+                    <li class="footer__item_list_li"><a href="mailto:help@allbirds.com" class="footer__item_link">Men's Apparel</a></li>
+                    <li class="footer__item_list_li"><a href="#" class="footer__item_link">Women's Apparel</a></li>
+                    <li class="footer__item_list_li"><a href="#" class="footer__item_link">Socks</a></li>
+                    <li class="footer__item_list_li"><a href="#" class="footer__item_link">Gift Cards</a></li>
+                    <li class="footer__item_list_li"><a href="#" class="footer__item_link">Download the Allbirds App</a></li>
+                </ul>
+            </div>
+            <div class="footer__item">
+                <div class="footer__item_title">Company</div>
+                <ul class="footer__item_list">
+                    <li class="footer__item_list_li"><a href="#" class="footer__item_link">Our Stores</a></li>
+                    <li class="footer__item_list_li"><a href="tel:18142519966" class="footer__item_link">Our Story</a></li>
+                    <li class="footer__item_list_li"><a href="mailto:help@allbirds.com" class="footer__item_link">Our Materials</a></li>
+                    <li class="footer__item_list_li"><a href="#" class="footer__item_link">Sustainability</a></li>
+                    <li class="footer__item_list_li"><a href="#" class="footer__item_link">Partnerships</a></li>
+                    <li class="footer__item_list_li"><a href="#" class="footer__item_link">Affiliates</a></li>
+                    <li class="footer__item_list_li"><a href="#" class="footer__item_link">Bulk Orders</a></li>
+                    <li class="footer__item_list_li"><a href="#" class="footer__item_link">Careers</a></li>
+                    <li class="footer__item_list_li"><a href="#" class="footer__item_link">Press</a></li>
+                    <li class="footer__item_list_li"><a href="#" class="footer__item_link">California Transparency Act</a></li>
+                </ul>
+            </div>
+            </div>
+            <div class="footer__wrapper_second">
+            <div class="footer__item">
+                <div class="footer__item_title footer__item_title_second">Follow the Flock</div>
+                <div class="footer__item_descr">Exclusive offers, a heads up on new things, and sightings of Allbirds in the wild. Oh, we have cute sheep, too. #weareallbirds</div>
+                <div class="footer__social">
+                    <svg class="footer-icon"><use xlink:href="#instagram"></use></svg>
+                    <svg class="footer-icon"><use xlink:href="#twitter"></use></svg>
+                    <svg class="footer-icon"><use xlink:href="#facebook"></use></svg>
+                    <svg class="footer-icon"><use xlink:href="#vector"></use></svg>
+                </div>
+            </div>
+            <div class="footer__item">
+                <div class="footer__logo">
+                    <img src="image/logofooter.png" alt="" class="footer-logo">
+                </div>
+            </div>
+            <div class="footer__item">
+                <div class="footer__country">
+                    <img src="image/flag.png" alt="" class="footer-country">
+                </div>
+            </div>
+        </div>
+        <div class="footer__last_text">
+            © 2021 Allbirds, Inc. All Rights Reserved.Terms Privacy & Accessibility
+        </div>
+    </div>
+    </section>
+
+
+
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

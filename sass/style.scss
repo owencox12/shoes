@@ -1,0 +1,21 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    &--second {
+        max-width: 1350px;
+    }
+}
+@import 'block/header';
+@import 'block/promo';
+@import 'block/button';
+@import 'block/favorite';
+@import 'block/bgcolor';
+@import 'block/about';
+@import 'block/made';
+@import 'block/title';
+@import 'block/tread';
+@import 'block/footer';
+@import 'block/media';

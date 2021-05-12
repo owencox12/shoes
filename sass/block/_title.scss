@@ -1,0 +1,37 @@
+.title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 42px;
+    color: #212A2F;
+    letter-spacing: 0.5px;
+    text-align: center;
+    &--made {
+        margin-top: 47px;
+    }
+    &--tread {
+        margin-top: 47px;
+    }
+}
+.subtitle {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #212a2f;
+    margin-top: 22px;
+    &--made {
+        width: 655px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    &--tread {
+        width: 664px;
+        margin: 0 auto;
+        margin-top: 22px;
+    }
+}

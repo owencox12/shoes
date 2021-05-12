@@ -1,0 +1,48 @@
+.tread {
+    min-height: 1650px;
+
+    &__bgcolor {
+        background: url(../../image/bgc4.png) center center / cover no-repeat;
+        height: 542px;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__title {
+        margin-bottom: 24px;
+        margin-top: 119px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 32px;
+        line-height: 42px;
+        letter-spacing: 0.5px;
+        color: #212A2F;
+    }
+    &__item {
+        &_name {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 22px;
+            line-height: 29px;
+            letter-spacing: 0.5px;
+            color: #212A2F;
+            margin-left: 10px;
+            margin-top: 17px;
+        }
+        &_descr {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: 0.5px;
+            color: #212A2F;
+            width: 348px;
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+    }
+}

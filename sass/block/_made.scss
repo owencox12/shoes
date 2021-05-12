@@ -1,0 +1,35 @@
+.made {
+    min-height: 1600px;
+    padding: 70px 0 138px 0;
+    &__bgcolor {
+        background: url(../../image/bgc3.png) center center / cover no-repeat;
+        height: 542px;
+        width: 100%;
+    }
+    &__title {
+
+    }
+    .swiper-container {
+        max-width: 1270px;
+    }
+    .made__image_limited {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.5px;
+        color: #212A2F;
+        margin-top: 6px;
+    }
+    .made__image_descr {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 29px;
+        letter-spacing: 0.5px;
+        color: #212A2F;
+        margin-top: 17px;
+    }
+}
