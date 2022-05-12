@@ -1,10 +1,11 @@
 .header {
-    height: 65px;
+    min-height: 65px;
     padding: 21px 12px 18px 12px;
     background: #ffffff;
     position: fixed;
     width: 100%;
     z-index: 1000;
+    overflow: hidden;
     &__wrapper {
         display: flex;
         justify-content: space-between;

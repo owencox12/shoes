@@ -1,6 +1,7 @@
 .made {
     min-height: 1600px;
     padding: 70px 0 138px 0;
+    overflow: hidden;
     &__bgcolor {
         background: url(../../image/bgc3.png) center center / cover no-repeat;
         height: 542px;
@@ -10,7 +11,6 @@
 
     }
     .swiper-container {
-        max-width: 1270px;
     }
     .made__image_limited {
         font-family: Roboto;

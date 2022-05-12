@@ -8,8 +8,7 @@ $('ul.favorite__tabs').on('click', 'li:not(.catalog__tab_active)', function() {
   });
 });
 new Swiper('.image-slider', {
-  slidesPerView: 3.1,
-  spaceBetween: 20,
+  slidesPerView: 4,
   navigation: {
     nextEl: '.about__arrow_next'
   },
